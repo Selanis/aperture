@@ -1,0 +1,598 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
+
+html {
+    background-color: black;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-family: 'Poppins', sans-serif;
+    font-size: 14px;
+    font-weight: 400;
+    color: white;
+    width: 100%;
+    min-height: 6256px;
+}
+
+body {
+    max-width: 1440px;
+    min-height: 6256px;
+    border: 1px solid white;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+    z-index: 2;
+}
+
+nav {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    min-width: 100%;
+    min-height: 90px;
+    border: 1px solid white;
+    align-items: center;
+    position: fixed;
+    z-index: 1;
+}
+
+
+.nav div {
+    display: flex;
+    max-width: 1200px;
+    min-width: 90px;
+    justify-content: space-between;
+    align-items: center;
+}
+
+ul {
+    display: flex;
+    justify-content: space-between;
+    min-width: 326px;
+    min-height: 20px;
+}
+
+ul li {
+    font-size: 15px;
+    list-style: none;
+
+}
+
+.get-template {
+    border: none;
+    color: black;
+    border-radius: 14px;
+    font-size: 16px;
+    width: 155px;
+    height: 42px;
+}
+
+.nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 1200px;
+    height: 90px;
+}
+
+.nav-text {
+    font-size: 13px;
+
+}
+
+.main-nav-text {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.space {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 100%;
+    max-width: 700px;
+}
+
+.aperture-studios {
+    min-width: 1440px;
+    height: 716px;
+    background-image: url('photo/aperture-studios.png');
+    margin-top: 90px;
+    display: flex;
+    justify-content: center;
+    justify-content: flex-end;
+    align-items: flex-end;
+}
+
+.aperture-studios div {
+    
+}
+
+.aperture-studios-1 {
+    color: #C0C0C0;
+    letter-spacing: 2px;
+    text-align: center;
+    text-transform: uppercase;
+    margin-bottom: 0px;
+    margin-bottom: 0px;
+    line-height: 20px;
+    margin: 0 auto;
+}
+
+.aperture-studios-2 {
+    font-size: 54px;
+    text-align: center;
+    margin-top: 1px;
+    margin-bottom: 18px;
+    line-height: 59px;
+    margin: 0 auto;
+}
+
+.aperture-studios-3 {
+    text-align: center;
+    max-width: 580px;
+    min-height: 80px;
+    margin: 0 auto;
+    padding-bottom: 50px;
+}
+
+.aperture-studios-info {
+    display: flex;
+    justify-content: space-between;
+    float: right;
+    width: 295px;
+    height: 16px;
+    margin-right: 39px;
+}
+
+.speed-logo-text {
+    font-size: 12px;
+    margin-top: 0px;
+    margin-left: 6px;
+}
+
+.aperture-studios-info div {
+    display: flex;
+}
+
+.what-we-do {
+    margin-top: 170px;
+    font-size: 40px;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+}
+
+.what-text2 {
+    margin: 0;
+    font-size: 23px;
+    margin-top: 15px;
+}
+
+.what-text1 {
+    margin: 0;
+}
+
+.what-we-do-div {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 24px;
+    flex-wrap: wrap;
+}
+
+.div-1 {
+    background-image: url('photo/product-photography.png');
+}
+
+.div-2 {
+    background-image: url('photo/architecture-photography.png');
+}
+
+.text1 {
+    letter-spacing: 2px;
+    text-transform: uppercase;
+}
+
+.div-button {
+    display: flex;
+    align-items: center;
+    width: 143px;
+    height: 42px;
+    border-radius: 14px;
+    border: none;
+    margin-bottom: 30px;
+
+}
+
+.div-button p {
+    margin-left: 6px;
+    font-size: 15px;
+}
+
+
+.div-3 {
+    background-image: url('photo/drone-photography.png');
+}
+
+.div-1 div {
+    padding-left: 30px;
+}
+
+.div-2 div {
+    padding-left: 30px;
+}
+
+.div-3 div {
+    padding-left: 30px;
+}
+
+.what-we-do-div div {
+    margin-top: 16px;
+    margin-left: 16px;
+    width: 576px;
+    height: 600px;
+    display: table-cell;
+    vertical-align: bottom;
+}
+
+.div-4 {
+    background-image: url('photo/wildlife-photography.png');
+}
+
+.div-4 div {
+    padding-left: 30px;
+}
+
+.sunset-container {
+    width: 1440px;
+    height: 600px;
+    background-image: url('photo/sunset-fudji.png');
+    margin-top: 100px;
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+}
+
+.sunset-container span {
+    letter-spacing: 2px;
+    text-transform: uppercase;
+    color: white;
+}
+
+.sunset-container p {
+    margin-right: 60px;
+    color: #C0C0C0;
+}
+
+.aperture-studios-info-2 {
+    display: flex;
+    justify-content: space-between;
+    float: right;
+    width: 256px;
+    height: 16px;
+    margin-right: 39px;
+    margin-top: -56px;
+    position: relative;
+    z-index: 2;
+}
+
+
+.aperture-studios-info-2 div {
+    display: flex;
+}
+
+.tools-text p {
+    margin: 0 0 0 0;
+}
+
+.tools-text1 {
+    color: #C0C0C0;
+    letter-spacing: 2px;
+    text-transform: uppercase;
+}
+
+.tools-text2 {
+    font-size: 28px;
+    margin-top: 6px;
+    margin-bottom: 14px;
+}
+
+.div-button-fudji {
+    display: flex;
+    align-items: center;
+    width: 152px;
+    height: 40px;
+    border-radius: 14px;
+    border: none;
+    margin-top: 20px;
+
+}
+
+.div-button-fudji p {
+    margin-left: 6px;
+    font-size: 16px;
+}
+
+.right-page {
+    margin-top: 173px;
+    margin-left: 100px;
+}
+
+.tools-container {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.aperture-studios-info-3 {
+    display: flex;
+    justify-content: space-between;
+    float: right;
+    width: 280px;
+    height: 16px;
+    margin-right: 39px;
+    margin-top: -56px;
+    position: relative;
+    z-index: 2;
+}
+
+.aperture-studios-info-3 div {
+    display: flex;
+}
+
+.monsera-container span {
+    letter-spacing: 2px;
+    text-transform: uppercase;
+    color: white;
+}
+
+.monsera-container p {
+    color: #C0C0C0;
+    margin-right: 60px;
+}
+
+.monsera-container {
+    width: 1440px;
+    height: 600px;
+    background-image: url('photo/monstera-leafs.png');
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+}
+
+.aperture-studios-info-4 {
+    display: flex;
+    justify-content: space-between;
+    float: right;
+    width: 318px;
+    height: 16px;
+    margin-right: 39px;
+    margin-top: -56px;
+    position: relative;
+    z-index: 2;
+}
+
+.aperture-studios-info-4 div {
+    display: flex;
+}
+
+.past-clients-container {
+    display: flex;
+    justify-content: center;
+}
+
+.past-clients-container div {
+    width: 1200px;
+    height: 82px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    margin-top: 113px;
+}
+
+.clients-text {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.clients-text h1 {
+    font-size: 40px;
+    font-weight: 400;
+    margin-bottom: 15px;
+    margin-top: 0px;
+}
+
+.clients-text p {
+    color: #C0C0C0;
+    font-size: 24px;
+    margin-top: 0px;
+    margin-bottom: 0px;
+}
+
+.clients-logo div{
+    height: 158px;
+    width: 1200px;
+    display: flex;
+    margin-top: 40px;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.clients-logo {
+    max-width: 1440px;
+    min-height: 158px;
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    margin-top: 40px;
+}
+
+.star-container {
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+    background-image: url('photo/star-fall.png');
+    width: 1440px;
+    height: 600px;
+    margin-top: 100px;
+}
+
+.star-container span {
+    color: white;
+    letter-spacing: 2px;
+    text-transform: uppercase;
+}
+
+.star-container p {
+    color:#C0C0C0;
+    margin-right: 119px;
+}
+
+.aperture-studios-info-5 {
+    display: flex;
+    justify-content: space-between;
+    float: right;
+    width: 250px;
+    height: 16px;
+    margin-right: 39px;
+    margin-top: -56px;
+    position: relative;
+    z-index: 2;
+}
+
+.aperture-studios-info-5 div {
+    display: flex;
+}
+
+.div-button-help {
+    display: flex;
+    align-items: center;
+    width: 154px;
+    height: 42px;
+    border-radius: 14px;
+    border: none;
+    margin-top: 12px;
+}
+
+.div-button-help p {
+    margin-left: 6px;
+    font-size: 16px;
+}
+
+.help-text {
+    color: #C0C0C0;
+    font-size: 24px;
+    margin-bottom: 0px;
+    margin-top: 0px;
+}
+
+.need-help-container h1 {
+    font-size: 40px;
+    line-height: 42px;
+    margin-top: 0px;
+    margin-bottom: 15px;
+}
+
+.need-help-container {
+    text-align: center;
+    margin-top: 113px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.last-container {
+    margin-top: 100px;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    width: 1440px;
+    height: 452px;
+}
+
+.first-section {
+    display: flex;
+    justify-content: space-between;
+    width: 1168px;
+}
+
+.last-ul-1 p {
+    letter-spacing: 2px;
+    text-transform: uppercase;
+    color: #C0C0C0;
+    margin: 0 0 0 0;
+}
+
+.last-ul-1 {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    width: 220px;
+    height: 200px;
+}
+
+.last-logo {
+    display: flex;
+    flex-direction: column;
+    width: 457px;
+    height: 200px;
+}
+
+
+.last-ul-1 li {
+    font-size: 13px;
+    margin: 0 0 0 0;
+}
+
+.last-ul-1 ul {
+    display: flex;
+    flex-direction: column;
+    padding-left: 0px;
+}
+
+.last-ul-2 li {
+    font-size: 13px;
+    margin: 0 0 0 0;
+}
+
+.last-ul-2 ul {
+    display: flex;
+    flex-direction: column;
+    padding-left: 0px;
+}
+
+.last-ul-2 p {
+    letter-spacing: 2px;
+    text-transform: uppercase;
+    color: #C0C0C0;
+    margin: 0 0 0 0;
+}
+
+.last-ul-2 {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    width: 220px;
+    height: 200px;
+}
+
+.text-last-div {
+    display: flex;
+    justify-content: space-between;
+    width: 456px;
+    height: 200px;
+}
+
+.last-last-div {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
